@@ -1,5 +1,5 @@
 # Flames
-This repository contains the codes required for the FLAMES algorithm which is a quiet famous game. It contains codes from both naive approach to high-level one. The basic task of this was to understand data structures and how to use them in a fun way so that anyone could understand why one may need to study it.
+This repository contains the codes required for the FLAMES algorithm which is a quiet famous game.This code is a naive approach of solving FLAMES but is very good for explaining the use of different data structures in a fun way which one might be keen to learn. The basic task of this was to understand data structures and how to use them in a fun way so that anyone could understand why one may need to study it.
 <br>
 <h1>What is Flames?</h1>
 <p>I don't think this had to be explained beacuse almost everybody has once in their lifetime played the famous game which lets you know what to expect from your crush or someone you just vibe with.</p>
@@ -39,7 +39,7 @@ This repository contains the codes required for the FLAMES algorithm which is a 
 <p>Now, I know various method by which this could be solved and there are more efficient solution to this problem but I wanted to combine my college level DSA skills with competitive DSA skills which I gained through leetcode.com and through contests.</p>
 <p>What I want to express is that through this approach one can understand how linked lists can be utilised to make a fun project which one can show off to their friends whilst gaining the knowledge of DSA and their further use in technology.</p>
 <p>But why <b>Circular Linked Lists?</b></p>
-<p>If you know the rules then you must be wondering how one can approach a problem of deleting one letter from a set of letters using a particular number which also loops over the remaining letters in the set?</p>\
+<p>If you know the rules then you must be wondering how one can approach a problem of deleting one letter from a set of letters using a particular number which also loops over the remaining letters in the set?</p>
 <p>Don't worry. I thought about that too and after kicking myself in the head I thought, <b>"Loop, hmm. Circles, hmm. Circular linked list!"</b> and like that I had an intuition which once I went forward with got me the solution I was searching for since 5 months.</p>
 <p>In <b>Circular linked list</b> the tail pointer points to the head so that even if the pointer one is using to traverse the list comes to the end of the list it would again go to the head of the list. And this was the Eurekha! moment for me. I created a simple circular linked list with insert function and a <b>size</b> counter. I didn't use the normal delete funciton one might write rather wrote the <b>flames(int pos)</b> function which deleted the letter at <b>pos</b> making sure to update the previous pointer points to the next of that position.</p>
 <p>Here the only special case that I had to look at was when the <b>pos</b> iteration pointed at the head of the list. In this case I have to delete that head and update the head pointer. The tail anyway points to head so that takes cares of everything else.
