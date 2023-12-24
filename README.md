@@ -1,5 +1,5 @@
 # Flames
-This repository contains the codes required for the FLAMES algorithm which is a quiet famous game.This code is a naive approach of solving FLAMES but is very good for explaining the use of different data structures in a fun way which one might be keen to learn. The basic task of this was to understand data structures and how to use them in a fun way so that anyone could understand why one may need to study it.
+This repository contains the codes required for the FLAMES algorithm which is a quiet famous game. This code is a naive approach of solving FLAMES but is very good for explaining the use of different data structures in a fun way which one might be keen to learn. The basic task of this was to understand data structures and how to use them in a fun way so that anyone could understand why one may need to study it.
 <br>
 <h1>What is Flames?</h1>
 <p>I don't think this had to be explained beacuse almost everybody has once in their lifetime played the famous game which lets you know what to expect from your crush or someone you just vibe with.</p>
