@@ -22,4 +22,15 @@ This repository contains the codes required for the FLAMES algorithm which is a 
   <li><b>S</b> - <b>Sibling</b></li>
 </ul>
 <p>Now, result for the example I have chosen here turns out to be and I used this code to run it is</p>
-<img src="FlamesResult.jpg" alt="Flames result" width="360px">
+<p>David Sally</p>
+<p>Keneth Morrison</p>
+<p>Ouch! Something is wrong. Too much negativity.</p>
+<p>David Sally and Keneth Morrison are ENEMIES!</p>
+<p>Try to solve your problems or kill the other one to live a peaceful life.</p>
+<p>Funny isn't it?</p>
+<br>
+<h1>How the code works?</h1>
+<h3>Use of hash functions</h3>
+<p>As discussed above one has to rule out common letters in both the names and to accomplish that I used the hash function.</p>
+<p>The hash function counts the frequency of letters in <mark>string boy</mark> and substracts the elements if there in <mark> string girl</mark> so that now all the common letters are decremented by number of times they are repeated in both the strings.</p>
+<p>Now <mark>int flame_number</mark> is declared and both the hash functions are check and if <mark>mp_girl[girl[i]]!=0</mark> then <mark>flame_number</mark> is incremented by 1. This is done for both <mark>boy</mark> and <mark>girl</mark>. This way I calculated the <mark>flame_number</mark></p>
