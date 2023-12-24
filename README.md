@@ -32,5 +32,5 @@ This repository contains the codes required for the FLAMES algorithm which is a 
 <h1>How the code works?</h1>
 <h3>Use of hash functions</h3>
 <p>As discussed above one has to rule out common letters in both the names and to accomplish that I used the hash function.</p>
-<p>The hash function counts the frequency of letters in <mark>string boy</mark> and substracts the elements if there in <mark> string girl</mark> so that now all the common letters are decremented by number of times they are repeated in both the strings.</p>
-<p>Now <mark>int flame_number</mark> is declared and both the hash functions are check and if <mark>mp_girl[girl[i]]!=0</mark> then <mark>flame_number</mark> is incremented by 1. This is done for both <mark>boy</mark> and <mark>girl</mark>. This way I calculated the <mark>flame_number</mark></p>
+<p>The hash function counts the frequency of letters in ^^string boy^^ and substracts the elements if there in ^^ string girl^^ so that now all the common letters are decremented by number of times they are repeated in both the strings.</p>
+<p>Now ^^int flame_number^^ is declared and both the hash functions are check and if ^^mp_girl[girl[i]]!=0^^ then ^^flame_number^^ is incremented by 1. This is done for both ^^boy^^ and ^^girl^^. This way I calculated the ^^flame_number^^</p>
